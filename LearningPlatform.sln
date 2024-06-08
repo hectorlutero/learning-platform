@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -9,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningPlatform.Contracts"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningPlatform", "LearningPlatform\LearningPlatform.csproj", "{E70BC6D6-7096-4B8B-91D7-4CA048ED0A03}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearningPlatform", "LearningPlatform", "{3480934B-2023-469B-81B1-3C04E866F46E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearningPlatformFolder", "LearningPlatform", "{3480934B-2023-469B-81B1-3C04E866F46E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "LearningPlatform\Presentation\Presentation.csproj", "{6462AC74-78A5-44FB-BC54-CB6F4A935275}"
 EndProject
