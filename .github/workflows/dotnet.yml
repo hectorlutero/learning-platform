@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '6.0.127'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore LearningPlatform/LearningPlatform.sln
 
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build LearningPlatform/LearningPlatform.sln --configuration Release --no-restore
