@@ -1,3 +1,11 @@
+/// This file contains REST API endpoints for managing courses in a learning platform.
+///
+/// The following endpoints are defined:
+///
+/// 1. `POST /api/course`: Creates a new course with the provided name, description, duration, and list of disciplines.
+/// 2. `GET /api/course/{id}`: Retrieves the details of a course by its unique identifier.
+/// 3. `PUT /api/course/{id}`: Updates an existing course with the provided name, description, duration, and list of disciplines. If the course does not exist, it is created.
+/// 4. `DELETE /api/course/{id}`: Deletes a course by its unique identifier.
 @baseURL=http://localhost:5273/api
 @id=107638f7-50f8-4953-8a50-7fb3db897be9
 
