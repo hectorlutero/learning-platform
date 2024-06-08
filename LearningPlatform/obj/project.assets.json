@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ErrorOr/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {}
+        }
+      },
+      "LearningPlatform.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LearningPlatform.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearningPlatform.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ErrorOr/2.0.1": {
+      "sha512": "aje9lUVEAsusPFmaRcVM5EUqWBofd7hYtb9N8+ycgPYrtOzyFajMpzRgIO4uuiCllNLBc3x48+cpA+4v4koUDQ==",
+      "type": "package",
+      "path": "erroror/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "erroror.2.0.1.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml",
+        "lib/netstandard2.0/ErrorOr.dll",
+        "lib/netstandard2.0/ErrorOr.xml"
+      ]
+    },
+    "LearningPlatform.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../LearningPlatform.Contracts/LearningPlatform.Contracts.csproj",
+      "msbuildProject": "../LearningPlatform.Contracts/LearningPlatform.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ErrorOr >= 2.0.1",
+      "LearningPlatform.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/hectorlutero/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform/LearningPlatform.csproj",
+      "projectName": "LearningPlatform",
+      "projectPath": "/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform/LearningPlatform.csproj",
+      "packagesPath": "/home/hectorlutero/.nuget/packages/",
+      "outputPath": "/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/hectorlutero/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/LearningPlatform.Contracts.csproj": {
+              "projectPath": "/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/LearningPlatform.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "ErrorOr": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.csproj.AssemblyReference.cache
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.AssemblyInfoInputs.cache
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.AssemblyInfo.cs
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.csproj.CoreCompileInputs.cache
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/bin/Debug/net6.0/LearningPlatform.Contracts.deps.json
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/bin/Debug/net6.0/LearningPlatform.Contracts.dll
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/bin/Debug/net6.0/ref/LearningPlatform.Contracts.dll
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/bin/Debug/net6.0/LearningPlatform.Contracts.pdb
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.dll
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/ref/LearningPlatform.Contracts.dll
+/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform.Contracts/obj/Debug/net6.0/LearningPlatform.Contracts.pdb

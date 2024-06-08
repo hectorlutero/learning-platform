@@ -1,0 +1,43 @@
+@baseURL=http://localhost:5273/api
+@id=107638f7-50f8-4953-8a50-7fb3db897be9
+
+// Create Course
+POST {{baseURL}}/course
+Content-Type: application/json
+
+{
+    "name": "Patologia Geral I",
+    "description": "Patologia Geral I voltada à Odontologia e Odontopediatria",
+    "duration": 60,
+    "disciplines": [
+        "Fundamentos da Patologia",
+        "Patologia Clinica",
+        "Aula Prática"
+    ]
+}
+
+###
+
+// Find Course by Id
+GET {{baseURL}}/course/{{id}}
+
+###
+
+// Update or Insert Course if the Id does not exist.
+PUT {{baseURL}}/course/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Patologia Geral I",
+    "description": "Patologia Geral I voltada à Odontologia e Odontopediatria",
+    "duration": 120,
+    "disciplines": [
+        "Fundamentos da Patologia",
+        "Patologia Clinica",
+        "Aula Prática"
+    ]
+}
+
+###
+// Delete Course by Id 
+DELETE {{baseURL}}/course/{{id}}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t35/N11hbk3O8f+u/7CdWu77hsVmeKKAldsALpL73CQQxL+4cCus9seHNVRXI3XAQ//vzvklXz0tu+zxhTC/1w==",
+  "success": true,
+  "projectFilePath": "/home/hectorlutero/hectorsiman/learning-platform/LearningPlatform/LearningPlatform.csproj",
+  "expectedPackageFiles": [
+    "/home/hectorlutero/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
